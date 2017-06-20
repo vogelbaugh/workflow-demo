@@ -7,7 +7,7 @@
   vars:
     region:   us-west-2
     ami:      ami-d0b162b0
-    keypair:  "{{ ec2_keypair_name | default('you need to define this') }}"
+#    keypair:  "{{ ec2_keypair_name | default('you need to define this') }}"
     set_dns:  False
     count:    1
     tags:
